@@ -1,17 +1,14 @@
 # Motion Detection & Notification System 🎥🤖
 
-## Description
-
+✨ **Description**  
 The Motion Detection & Notification System is a Python program that detects motion in a video feed using OpenCV and sends notifications via Telegram when motion is detected. It leverages environment variables for configuration and includes basic error handling.
 
-## Features
-
+🚀 **Features**
 - **Motion Detection**: Utilizes OpenCV's background subtraction and contour detection to identify motion.
 - **Telegram Notifications**: Sends photos and text messages to a configured Telegram chat when motion is detected or if the DVR is offline.
 - **Error Handling**: Basic exception handling to notify via Telegram if something goes wrong.
 
-## Installation
-
+🛠️ **Installation**
 To set up this project, follow these steps:
 
 1. **Clone the repository**:
@@ -34,8 +31,7 @@ To set up this project, follow these steps:
    DVR_URL=http://your_dvr_url
    ```
 
-## Usage
-
+📦 **Usage**
 Here’s how you can use the program:
 
 1. **Run the Motion Detection Script**:
@@ -57,8 +53,7 @@ Here’s how you can use the program:
            telegram_notifier.send_notification("Motion detected!", "path/to/screenshot.jpg")
    ```
 
-## Configuration
-
+🔧 **Configuration**
 The script uses environment variables for configuration. Set the following in your `.env` file:
 
 - `TELEGRAM_API_ID`: Your Telegram bot's API ID.
@@ -66,11 +61,10 @@ The script uses environment variables for configuration. Set the following in yo
 - `TELEGRAM_CHAT_ID`: The chat ID where notifications will be sent.
 - `DVR_URL`: URL of the DVR to monitor.
 
-## Tests
-
+🧪 **Tests**
 This project does not include automated tests at this time. However, you can manually test motion detection and notification functionality by running the script and checking your Telegram chat.
 
-## Project Structure
+📁 **Project Structure**
 
 ```
 python-motion-detection/
@@ -84,8 +78,7 @@ python-motion-detection/
 - `requirements.txt`: List of project dependencies.
 - `.env.example`: Example file to guide you on setting up environment variables.
 
-## Contributing
-
+🙌 **Contributing**
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
@@ -94,8 +87,7 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/YourFeatureName`).
 5. Open a pull request.
 
-## License
-
+📄 **License**
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
